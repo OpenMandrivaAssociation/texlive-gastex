@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/gastex
+# catalog-date 2007-03-07 00:33:49 +0100
+# catalog-license lppl
+# catalog-version 2.8
 Name:		texlive-gastex
 Version:	2.8
 Release:	1
@@ -45,6 +51,7 @@ PDFLaTeX.
 %doc %{_texmfdistdir}/doc/latex/gastex/README
 %doc %{_texmfdistdir}/doc/latex/gastex/ex-beamer-gastex.tex
 %doc %{_texmfdistdir}/doc/latex/gastex/ex-gastex.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ PDFLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
