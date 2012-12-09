@@ -52,3 +52,17 @@ PDFLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.8-2
++ Revision: 752184
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.8-1
++ Revision: 718521
+- texlive-gastex
+- texlive-gastex
+- texlive-gastex
+- texlive-gastex
+
