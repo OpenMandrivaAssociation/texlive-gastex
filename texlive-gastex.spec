@@ -6,7 +6,7 @@
 # catalog-version 2.8
 Name:		texlive-gastex
 Version:	2.8
-Release:	10
+Release:	11
 Summary:	Graphs and Automata Simplified in TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/gastex
