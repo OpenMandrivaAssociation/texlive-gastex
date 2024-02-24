@@ -1,6 +1,6 @@
 Name:		texlive-gastex
-Version:	58505
-Release:	2
+Version:	69877
+Release:	1
 Summary:	Graphs and Automata Simplified in TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/gastex
