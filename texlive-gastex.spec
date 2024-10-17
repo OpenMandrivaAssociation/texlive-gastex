@@ -3,7 +3,7 @@ Version:	69877
 Release:	1
 Summary:	Graphs and Automata Simplified in TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/gastex
+URL:		https://www.ctan.org/tex-archive/graphics/gastex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gastex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gastex.doc.r%{version}.tar.xz
